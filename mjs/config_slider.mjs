@@ -5,20 +5,21 @@ export const config_slider = {
 
     list_slide : [
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/01_portfolio.jpg'
+            titre : 'Gazon',
+            sousTitre : 'Gazon',
+            img : '../img/gazon.jpg'
         },
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/02_portfolio.jpg'
+            titre : 'Gazon aussi',
+            sousTitre : 'Gazon aussi',
+            img : '../img/gazon2.jpg'
         },
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/03_portfolio.jpg'
+            titre : 'Gazon encore',
+            sousTitre : 'Gazon encore',
+            img : '../img/gazon3.jpg'
         }
+        
 
 
     ]

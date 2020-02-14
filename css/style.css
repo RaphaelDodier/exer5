@@ -1042,6 +1042,7 @@ desktop : 4 colonnes
       scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  border-radius: 20px;
   /*
 scroll-snap-points-x: repeat(300px);
 scroll-snap-type: mandatory;
@@ -1185,8 +1186,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#74ABE2), to(#5563DE));
-  background: linear-gradient(to bottom, #74ABE2, #5563DE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#BB4B00), to(#964B00));
+  background: linear-gradient(to bottom, #BB4B00, #964B00);
   font-family: 'Ropa Sans', sans-serif;
   overflow: hidden;
 }

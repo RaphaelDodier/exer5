@@ -23,6 +23,7 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    border-radius: 20px;
     /*
 scroll-snap-points-x: repeat(300px);
 scroll-snap-type: mandatory;
@@ -136,7 +137,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #74ABE2, #5563DE);
+    background: linear-gradient(to bottom, #BB4B00,#964B00);
     font-family: 'Ropa Sans', sans-serif;
      overflow: hidden;
 }

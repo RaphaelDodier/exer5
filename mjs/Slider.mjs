@@ -19,10 +19,33 @@ export class Slider {
             let elmSlide = document.createElement('div')
             elmSlide.id = 'slides-' + k
             k++
-            elmSlides.appendChild(elmSlide)
+            let elmImg = document.createElement("img")
+            elmImg.src = unSlide.img
+            elmSlide.appendChild(elmImg)
+            elmSlides.appendChild(elmSlide)     
         }
+        let elmPrec = document.createElement("a")
+        elmPrec.className = "prec"
+        let flechePrec = document.createTextNode('>&#10094;')
+
+        let elmProc = document.createElement("a")
+        elmProc.className = "proc"
+        let flecheProc = document.createTextNode('>&#10095;')
+
+        elmPrec.appendChild(flechePrec)
+        elmProc.appendChild(flecheProc)
+
+
         elmSlider.appendChild(elmSlides)
+
+        //Fait apparaitre les flèches
+        elmSlider.appendChild(elmPrec)
+        elmSlider.appendChild(elmProc)
+
         this.elmMonSlider.appendChild(elmSlider)
+
+        // <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        // <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     }
 
