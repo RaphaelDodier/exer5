@@ -19,17 +19,31 @@ export class Slider {
             let elmSlide = document.createElement('div')
             elmSlide.id = 'slides-' + k
             k++
+            let elmTitre = document.createElement("h2")
+            let elmSous = document.createElement("p")
             let elmImg = document.createElement("img")
+            elmTitre.innerHTML = unSlide.titre
+            elmSous.innerHTML = unSlide.sousTitre
             elmImg.src = unSlide.img
+            
+            elmSlide.appendChild(elmTitre)
+            elmSlide.appendChild(elmSous)
             elmSlide.appendChild(elmImg)
+
+            elmTitre.style.zIndex="1";
+            elmSous.style.zIndex="1";
+
+            elmTitre.style.color="white";
+            elmSous.style.color="white";
+
             elmSlides.appendChild(elmSlide)     
         }
-        let elmPrec = document.createElement("a")
+        let elmPrec = document.createElement("p")
         elmPrec.className = "prec"
         elmPrec.innerHTML = "&#10094;"
 
 
-        let elmProc = document.createElement("a")
+        let elmProc = document.createElement("p")
         elmProc.className = "proc"
         elmProc.innerHTML = "&#10095;"
 

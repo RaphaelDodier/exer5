@@ -1196,15 +1196,14 @@ img {
 .prec, .proc {
   cursor: pointer;
   position: absolute;
-  top: -50px;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
+  top: 120px;
+  padding: 5px;
+  color: white;
+  background-color: black;
   font-weight: bold;
-  font-size: 18px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
+  font-size: 14px;
+  -webkit-transition: 100000s ease;
+  transition: 100000s ease;
   border-radius: 0 3px 3px 0;
 }
 
