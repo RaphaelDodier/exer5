@@ -1031,6 +1031,7 @@ desktop : 4 colonnes
   width: 300px;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
 
 .slides {
@@ -1190,6 +1191,27 @@ img {
   background: linear-gradient(to bottom, #BB4B00, #964B00);
   font-family: 'Ropa Sans', sans-serif;
   overflow: hidden;
+}
+
+.prec, .proc {
+  cursor: pointer;
+  position: absolute;
+  top: -50px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.proc {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /*-------------------------------------------------------------- 
