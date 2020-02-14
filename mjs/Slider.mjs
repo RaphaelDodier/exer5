@@ -26,14 +26,14 @@ export class Slider {
         }
         let elmPrec = document.createElement("a")
         elmPrec.className = "prec"
-        let flechePrec = document.createTextNode('>&#10094;')
+        elmPrec.innerHTML = "&#10094;"
+
 
         let elmProc = document.createElement("a")
         elmProc.className = "proc"
-        let flecheProc = document.createTextNode('>&#10095;')
+        elmProc.innerHTML = "&#10095;"
 
-        elmPrec.appendChild(flechePrec)
-        elmProc.appendChild(flecheProc)
+
 
 
         elmSlider.appendChild(elmSlides)
@@ -44,8 +44,6 @@ export class Slider {
 
         this.elmMonSlider.appendChild(elmSlider)
 
-        // <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        // <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     }
 
